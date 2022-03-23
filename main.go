@@ -22,6 +22,7 @@ func main() {
 	}
 }
 
+// indexHandler handles the index page
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 
 	location := config.Config.FileLocation
